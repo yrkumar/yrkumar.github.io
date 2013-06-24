@@ -5,20 +5,20 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Danish Khan</title>
-	<link href="http://danishkhan.org/atom.xml" rel="self"/>
-	<link href="http://danishkhan.org/"/>
+	<link href="http://yrkumar.githug.io/atom.xml" rel="self"/>
+	<link href="http://yrkumar.github.io/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-		<id>http://danishkhan.org</id>
+		<id>http://yrkumar.github.io</id>
 	<author>
-		<name>Danish Khan</name>
+		<name>Yashas Kumar</name>
 	</author>
 	
 	{% for post in site.posts %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://danishkhan.org{{ post.url }}"/>
+		<link href="http://yrkumar.github.io{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://danishkhan.org{{ post.id }}</id>
+		<id>http://yrkumar.github.io{{ post.id }}</id>
 		<content type="html">{{ post.content | xml_escape }}</content>
 	</entry>
 	{% endfor %}
