@@ -1,0 +1,7 @@
+#Jekyll Build#
+##############
+_site
+
+#Swap Files#
+############
+*.swp
