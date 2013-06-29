@@ -13,7 +13,7 @@ As I browsed the site, I realized that it was taking me a while just to find dif
 
 An almost endless drop down menu to narrow options? Semesters worth of ratings data squished into one REALLY big table of values on a single page? I found myself resorting to ctrl-f to find each course I was interested in and then writing down the evaluations as I went so I could do a comprehensive comparison. After almost an hour of frustration, I finally gave up and decided to try and fix it so that I wouldn't have to repeat the process for future semesters.
 
-Using Python and a handy framework called [Scrapy](http://scrapy.org/), I created a simple data crawler to scrape the course evaluations off of FCE and serialize them for easy storage. After running the crawler and gathering the ratings data in a file, I built a front-end search interface with [Flask](http://flask.pocoo.org/) to parse search queries that could be made by users, returning the course ratings that matched those queries in a neat and organized table:
+Using Python and a handy framework called [Scrapy](http://scrapy.org/), I created a simple data crawler to scrape the course evaluations off of FCE and serialize them for easy storage. After running the crawler and gathering the ratings data in a file, I built a front-end search interface with [Flask](http://flask.pocoo.org/) and [Bootstrap](http://twitter.github.io/bootstrap/) to parse search queries that could be made by users, returning the course ratings that matched those queries in a neat and organized table:
 
 ![WhichCourse Interface](https://github.com/yrkumar/yrkumar.github.io/raw/master/images/whichcourse.png)
 
