@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Making Life Easier for CMU Students"
-date: 2013-06-24 1:00
-comments: false
+date: 2013-07-06 1:00
+comments: true
 ---
 
 Over this past winter break, I was registering for classes using [Carnegie Mellon's Faculty Course Evaluations](http://www.cmu.edu/hub/fce/) (FCE) to help me decide which courses to take. A tool provided by CMU, FCE gathers ratings data by recording student responses to surveys distributed online after each semester ends. These ratings provide a goldmine of information on almost every course offered at CMU. 
