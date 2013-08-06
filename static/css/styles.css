@@ -1,5 +1,63 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+
+#buttons {
+    border-radius: 5px;
+    background: white;
+    width: 500px;
+    overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.button {
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 110px;
+    margin: 0 7px;
+    border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.slide {
+    position: absolute;
+    width: 110px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.slide p {
+    font-family: Open Sans;
+    color: #fff;
+    text-align: center;
+}
+
+.button .slide {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.facebook .slide { background: #305c99; }
+
+.twitter .slide { background: #00cdff; }
+
+.google .slide { background: #d24228; }
+
+.linkedin .slide { background: #007bb6; }
+
+.slide:hover { background: #41924b; } 
+
 html { overflow-y: scroll; }
 
 body {
