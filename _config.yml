@@ -1,6 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 pygments: true
 permalink: /posts/:title
-rdiscount:
-  extensions: [smart]
 
