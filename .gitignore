@@ -2,6 +2,10 @@
 ##############
 _site
 
+#Cache Files#
+#############
+.jekyll-cache
+
 #Swap Files#
 ############
 *.swp
