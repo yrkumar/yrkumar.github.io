@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>yrkumar</title>
+	<link href="http://yrkumar.githug.io/atom.xml" rel="self"/>
+	<link href="http://yrkumar.github.io/"/>
+	<updated>2022-01-05T18:05:45-08:00</updated>
+		<id>http://yrkumar.github.io</id>
+	<author>
+		<name>Yashas Kumar</name>
+	</author>
+	
+	
+	<entry>
+		<title>Making Life Easier for CMU Students</title>
+		<link href="http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students"/>
+		<updated>2013-07-09T01:00:00-07:00</updated>
+		<id>http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students</id>
+		<content type="html">&lt;p&gt;Over this past winter break, I was registering for classes using &lt;a href=&quot;http://www.cmu.edu/hub/fce/&quot;&gt;Carnegie Mellon’s Faculty Course Evaluations&lt;/a&gt; (FCE) to help me decide which courses to take. A tool provided by CMU, FCE gathers ratings data by recording student responses to surveys distributed online after each semester ends. These ratings provide a goldmine of information on almost every course offered at CMU.&lt;/p&gt;
+
+&lt;p&gt;As I browsed the site, I realized that it was taking me a while just to find different courses and see how their evaluations matched up (I can’t place the blame fully on CMU; FCE seems to be operated by an external company). Although it’s a great resource for finding data about courses, FCE wasn’t living up to its potential as a powerful course comparison tool… Why? Mostly because of its interface:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/img/fceInterface.png&quot; alt=&quot;FCE Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An almost endless drop down menu to narrow options? Semesters worth of ratings data squished into one REALLY big table of values on a single page? I found myself resorting to ctrl-f to find each course I was interested in and then writing down the evaluations as I went so I could do a comprehensive comparison. After almost an hour of frustration, I finally gave up and decided to try and fix it so that I wouldn’t have to repeat the process for future semesters.&lt;/p&gt;
+
+&lt;p&gt;Using Python and a handy framework called &lt;a href=&quot;http://scrapy.org/&quot;&gt;Scrapy&lt;/a&gt;, I created a simple data crawler to scrape the course evaluations off of FCE and serialize them for easy storage. After running the crawler and gathering the ratings data in a file, I built a front-end search interface with &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask&lt;/a&gt; and &lt;a href=&quot;http://twitter.github.io/bootstrap/&quot;&gt;Bootstrap&lt;/a&gt; to parse search queries that could be made by users, returning the course ratings that matched those queries in a neat and organized table:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/img/whichcourse.png&quot; alt=&quot;WhichCourse Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I called the app WhichCourse because I created it to help me choose which courses to take. WhichCourse offers two major advantages over FCE for me:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Allows searching for multiple course at once for easy side-by-side comparison&lt;/li&gt;
+  &lt;li&gt;Aggregates course evaluations (displayed by semester in FCE) to show a comprehensive rating for each course and professor&lt;/li&gt;
+  &lt;li&gt;(Bonus): Provides a slick, bootstrapped interface to view data&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Through building WhichCourse, I realized how useless data without organization is. Even though the amount of data in FCE is nowhere near the amount processed by modern day Big Data companies, it still was an immense pain to access when it was unindexed. See &lt;a href=&quot;http://whichcourse.herokuapp.com/&quot;&gt;WhichCourse&lt;/a&gt; live in action or &lt;a href=&quot;https://github.com/yrkumar/which-course&quot;&gt;browse the source code on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As a sidenote, I had a great time using Flask and would really recommend it for simple web apps or for prototyping larger Django projects. For example, error handling for WhichCourse (when the user entered a malformed search query) was as simple as utilizing Flask’s built-in &lt;a href=&quot;http://jinja.pocoo.org/&quot;&gt;Jinja2&lt;/a&gt; templating system to display different messages on screen depending on the variety of the error. Here’s an example:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/yrkumar/199d22d3b3088c6a7f4c.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Here, the conditionals easily catch malformed search queries and render different HTML templates based on the status of these queries. Aside from an awesome templating system, Flask aslo boasts an awesome built-in debugger and great &lt;a href=&quot;http://flask.pocoo.org/docs/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+	</entry>
+	
+ 
+</feed>
