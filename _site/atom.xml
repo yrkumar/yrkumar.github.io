@@ -4,12 +4,50 @@
 	<title>yrkumar</title>
 	<link href="http://yrkumar.githug.io/atom.xml" rel="self"/>
 	<link href="http://yrkumar.github.io/"/>
-	<updated>2022-01-05T18:05:45-08:00</updated>
+	<updated>2022-01-09T16:34:24-08:00</updated>
 		<id>http://yrkumar.github.io</id>
 	<author>
 		<name>Yashas Kumar</name>
 	</author>
 	
+	
+	<entry>
+		<title>A Safe Framework for Managing Personal Finances</title>
+		<link href="http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances"/>
+		<updated>2022-01-06T01:00:00-08:00</updated>
+		<id>http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances</id>
+		<content type="html">&lt;p&gt;There are three core principles that form the basis of a reasonably safe personal money management strategy for the wide majority of people under salaried employment in the United States. We’ll go through them here one-by-one.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;1. Invest rather than save.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On a fundamental level, money is valuable because it allows for purchasing goods and services. However, in an inflationary world, the purchasing power of a static amount of money decreases over time. In 2021, &lt;a href=&quot;https://www.bls.gov/opub/ted/2021/consumer-prices-up-6-8-percent-for-year-ended-november-2021.htm&quot;&gt;the CPI (Consumer Price Index)&lt;/a&gt;, which tracks the change in prices paid by consumers for goods and services, went up by 6.8%. Therefore, if your personal wealth grew by less than 6.8% in 2021 then you have actually become poorer because you have less buying power relative to beginning of the year.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;2. Use retirement accounts.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Retirement accounts (e.g. 401k, IRA) are tax advantaged relative to other investment vehicles. In a normal brokerage account, your money is taxed twice - first, when you earn the income (via income tax) and then again when you realize profit by selling an asset (via capital gains tax). In comparison, retirement accounts are only taxed once, either when the money goes into the account (post-tax or Roth) or when the money comes out of the account (pre-tax or traditional).&lt;/p&gt;
+
+&lt;p&gt;Let’s do some math to compare the same investment in different accounts. For simplicity, we will assume a flat income and capital gains tax rate of 30% and a return of 100% on an initial investment of $100,000.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/static/img/investments.png&quot; alt=&quot;Investment vs Retirement Accounts&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tax advantaged accounts skip a tax step, making them strictly better than the brokerage accounts. The only caveat here is that some retirement accounts charge a penalty for withdrawing money from them before a certain age, so if you’re looking for near term liquidity, then skip this money management principle.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;3. Take advantage of tax and asset class diversification.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Diversification is a good way to hedge against the risk of concentrating your investment in specific strategies or assets. There are many avenues to diversify investments, but two that are significant are tax diversification and asset class diversification.&lt;/p&gt;
+
+&lt;p&gt;Tax diversification means allocating assets in accounts with differing taxation strategies. The goal is to protect investments against tax uncertainty in the future (e.g. from regulation). On a practical basis, this means splitting your investments between pre-tax and post-tax retirement accounts.&lt;/p&gt;
+
+&lt;p&gt;Asset class diversification is pretty straightforward - it means making sure that your portfolio is not overbalanced on any single asset or asset class. The idea here is to protect investments against a single tanking asset or sector. On a practical basis, this means investing in broad based index funds.&lt;/p&gt;
+
+</content>
+	</entry>
 	
 	<entry>
 		<title>Making Life Easier for CMU Students</title>
@@ -26,7 +64,7 @@
 
 &lt;p&gt;Using Python and a handy framework called &lt;a href=&quot;http://scrapy.org/&quot;&gt;Scrapy&lt;/a&gt;, I created a simple data crawler to scrape the course evaluations off of FCE and serialize them for easy storage. After running the crawler and gathering the ratings data in a file, I built a front-end search interface with &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask&lt;/a&gt; and &lt;a href=&quot;http://twitter.github.io/bootstrap/&quot;&gt;Bootstrap&lt;/a&gt; to parse search queries that could be made by users, returning the course ratings that matched those queries in a neat and organized table:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/static/img/whichcourse.png&quot; alt=&quot;WhichCourse Interface&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/static/img/whichCourse.png&quot; alt=&quot;WhichCourse Interface&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I called the app WhichCourse because I created it to help me choose which courses to take. WhichCourse offers two major advantages over FCE for me:&lt;/p&gt;
 
