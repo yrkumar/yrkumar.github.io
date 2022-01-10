@@ -15,7 +15,7 @@ An almost endless drop down menu to narrow options? Semesters worth of ratings d
 
 Using Python and a handy framework called [Scrapy](http://scrapy.org/), I created a simple data crawler to scrape the course evaluations off of FCE and serialize them for easy storage. After running the crawler and gathering the ratings data in a file, I built a front-end search interface with [Flask](http://flask.pocoo.org/) and [Bootstrap](http://twitter.github.io/bootstrap/) to parse search queries that could be made by users, returning the course ratings that matched those queries in a neat and organized table:
 
-![WhichCourse Interface](/static/img/whichcourse.png)
+![WhichCourse Interface](/static/img/whichCourse.png)
 
 I called the app WhichCourse because I created it to help me choose which courses to take. WhichCourse offers two major advantages over FCE for me:
 
