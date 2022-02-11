@@ -38,7 +38,7 @@
 	<title>yrkumar</title>
 	<link href="http://yrkumar.githug.io/atom.xml" rel="self"/>
 	<link href="http://yrkumar.github.io/"/>
-	<updated>2022-01-17T12:58:34-08:00</updated>
+	<updated>2022-02-11T10:35:40-07:00</updated>
 		<id>http://yrkumar.github.io</id>
 	<author>
 		<name>Yashas Kumar</name>
@@ -48,7 +48,7 @@
 	<entry>
 		<title>A Safe Framework for Managing Personal Finances</title>
 		<link href="http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances"/>
-		<updated>2022-01-06T01:00:00-08:00</updated>
+		<updated>2022-01-06T01:00:00-07:00</updated>
 		<id>http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances</id>
 		<content type="html">&lt;p&gt;There are three core principles that form the basis of a reasonably safe personal money management strategy for the wide majority of people under salaried employment in the United States. We’ll go through them here one-by-one.&lt;/p&gt;
 
@@ -86,7 +86,7 @@
 	<entry>
 		<title>Making Life Easier for CMU Students</title>
 		<link href="http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students"/>
-		<updated>2013-07-09T01:00:00-07:00</updated>
+		<updated>2013-07-09T01:00:00-06:00</updated>
 		<id>http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students</id>
 		<content type="html">&lt;p&gt;Over this past winter break, I was registering for classes using &lt;a href=&quot;http://www.cmu.edu/hub/fce/&quot;&gt;Carnegie Mellon’s Faculty Course Evaluations&lt;/a&gt; (FCE) to help me decide which courses to take. A tool provided by CMU, FCE gathers ratings data by recording student responses to surveys distributed online after each semester ends. These ratings provide a goldmine of information on almost every course offered at CMU.&lt;/p&gt;
 
