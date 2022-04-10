@@ -38,7 +38,7 @@
 	<title>yrkumar</title>
 	<link href="http://yrkumar.githug.io/atom.xml" rel="self"/>
 	<link href="http://yrkumar.github.io/"/>
-	<updated>2022-03-26T11:09:55+00:00</updated>
+	<updated>2022-04-10T23:07:48-07:00</updated>
 		<id>http://yrkumar.github.io</id>
 	<author>
 		<name>Yashas Kumar</name>
@@ -46,9 +46,30 @@
 	
 	
 	<entry>
+		<title>On Intentionality</title>
+		<link href="http://yrkumar.github.io/posts/On-Intentionality"/>
+		<updated>2022-03-26T01:00:00-07:00</updated>
+		<id>http://yrkumar.github.io/posts/On-Intentionality</id>
+		<content type="html">&lt;p&gt;For each life stage in your first 25 years, there are safety nets that guide you to success.&lt;/p&gt;
+
+&lt;p&gt;As an infant, your parents serve as your guardians, teaching you the basic skills you need to survive. As an adolescent, parental figures in the school system provide you with a broad, albeit shallow, understanding of how the world works. As a young adult, your professors and TAs give you more specialized instruction in subjects of your choosing. To an extent, you even have this support as a new college graduate; your manager guides you to early productivity in the workforce&lt;sup&gt;*&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, there comes a point in life when you need to become more self-reliant when making decisions of consequence. The need for this paradigm shift manifests itself in a variety of different domains.&lt;/p&gt;
+
+&lt;p&gt;For example, early on in life, your friendships are likely maintained simply as a result of proximity. As a result, you don’t need to expend intentional effort to keep up with friends since you unconsciously meet them on a definite schedule (e.g. in class the next day). As you grow older, however, maintaining friendships becomes an active choice rather than something that happens just by default. At this point, there is no guarantee of seeing your friends unless both parties make an intentional commitment to do so.&lt;/p&gt;
+
+&lt;p&gt;As another example - early in your career, you are likely able to achieve success simply by scaling the skills that you already possess (e.g. delivering more output or delivering it faster). At this level, you don’t need to be intentional about the results you deliver since it’s largely your manager’s responsibility (if they’re good) to grow your impact. As you get to a more senior level, however, exceeding the expectations required of you becomes more of an intentional effort on your end rather than something that just happens automatically. In this context, your manager acts more as a peer rather than a superior. You are expected to tell your manager how you intend to progress to the next level rather than the other way around.&lt;/p&gt;
+
+&lt;p&gt;The natural question that follows is how you can successfully shift your thinking to emphasize intentional decision making. The first step is to establish some core values that are important to you. Then, actively use these core values to inform the decisions that you make. Finally, set up some recurring time to reflect on whether these decisions actually align with your core values or whether your list of values need to be updated.&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;*&lt;/sup&gt;This is why those who have succeeded even without these safety nets are so impressive.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>A Safe Framework for Managing Personal Finances</title>
 		<link href="http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances"/>
-		<updated>2022-01-06T01:00:00+00:00</updated>
+		<updated>2022-01-06T01:00:00-08:00</updated>
 		<id>http://yrkumar.github.io/posts/A-Safe-Framework-for-Managing-Personal-Finances</id>
 		<content type="html">&lt;p&gt;There are three core principles that form the basis of a reasonably safe personal money management strategy for the wide majority of people under salaried employment in the United States. We’ll go through them here one-by-one.&lt;/p&gt;
 
@@ -86,7 +107,7 @@
 	<entry>
 		<title>Making Life Easier for CMU Students</title>
 		<link href="http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students"/>
-		<updated>2013-07-09T01:00:00+01:00</updated>
+		<updated>2013-07-09T01:00:00-07:00</updated>
 		<id>http://yrkumar.github.io/posts/Making-Life-Easier-for-CMU-Students</id>
 		<content type="html">&lt;p&gt;Over this past winter break, I was registering for classes using &lt;a href=&quot;http://www.cmu.edu/hub/fce/&quot;&gt;Carnegie Mellon’s Faculty Course Evaluations&lt;/a&gt; (FCE) to help me decide which courses to take. A tool provided by CMU, FCE gathers ratings data by recording student responses to surveys distributed online after each semester ends. These ratings provide a goldmine of information on almost every course offered at CMU.&lt;/p&gt;
 
